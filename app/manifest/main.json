@@ -1,0 +1,25 @@
+{
+  "name": "Notes++",
+  "short_name": "Notes++",
+  "description": "A powerful PWA with Notability-like features and more!",
+  "start_url": "/app/app.main.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "en-US",
+  "dir": "ltr",
+  "orientation": "any",
+  "categories": ["productivity", "education"],
+  "icons": [
+    {
+      "src": "/app/icons/icon-144x144.jpg",
+      "sizes": "144x144",
+      "type": "image/jpeg"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "apple-mobile-web-app-capable": "yes",
+  "apple-mobile-web-app-status-bar-style": "black-translucent",
+  "apple-mobile-web-app-title": "Notes++"
+}

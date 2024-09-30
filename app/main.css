@@ -1,0 +1,9 @@
+html, body, page {
+    width: 100vw;
+    height: 100dvh;
+    overflow: hidden;
+}
+page {
+    position: fixed;
+    inset: 0;
+}

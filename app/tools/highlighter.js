@@ -1,0 +1,3 @@
+class Highlighter extends Pen {
+    
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes++</title>
+    <link rel="manifest" href="/app/manifest/main.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="../root.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="note.css">
+</head>
+<body>
+    <div class="loading full">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+    </div>
+
+    <page id="note">
+        <h1>Isaac is lel</h1>
+        <input type="file" id="file-input" accept="application/pdf" style="z-index:111;position:fixed;">
+        <div id="pdf-viewer"></div>
+    </page>
+</body>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    
+    <script src="pdf.handler.js"></script>
+    <script src="tools/viewport.helper.js"></script>
+    <script src="tools/tool.js"></script>
+    <script src="tools/selection.helper.js"></script>
+    <script src="tools/pen.js"></script>
+    <script src="tools/highlighter.js"></script>
+    <script src="tools/eraser.js"></script>
+
+    <script src="version.js" defer></script>
+
+    <script src="app.main.js" defer></script>
+</html>
